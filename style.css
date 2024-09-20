@@ -1,0 +1,622 @@
+*{
+    margin: 0%;
+    padding: 0%;   
+}
+
+body{
+    background-color: rgb(197, 199, 199);
+}
+
+.nav-links.showmenu {
+    display: block;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: black;
+    width: 1500px;
+    z-index: 2;
+}
+svg{
+    visibility: hidden;
+}
+
+.logo{
+    font-family: "Playwrite NZ", cursive;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+
+.logo:hover{
+    color: gray;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: black;
+}
+
+ul li{
+    font-family: "Montserrat", sans-serif;
+    display: inline-flex;
+    margin-right: 40px;
+    transition: 0.5s;
+}
+
+ul li:hover{
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+i:hover{
+    color: gray;
+}
+
+i{
+    color: white;
+    padding: 0% 20px;
+    cursor: pointer;
+}
+
+.nav-links li a:hover{
+    color: black;
+}
+
+.login{
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    padding: 10px 20px;
+    margin-left: 400px;
+}
+
+.login:hover{
+    background-color: gray;
+    color: black;
+}
+
+.image1 img{
+    width: 100%;
+    height: 700px;
+}
+
+.banner-text{
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 25px;
+    color: white;  
+    letter-spacing: 5px;  
+}
+
+.banner-text{
+    position: absolute;
+    top: 40%;
+    right: 7%;
+    box-shadow: 5px 5px 20px rgba(0,0,0.09);
+    padding: 20px 30px;
+    border-radius: 50px;
+    backdrop-filter: blur(8px);
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 0);
+    color: white;   
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+h5{
+    font-size: smaller;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.collections{
+    width: 250px;
+    height: 440px;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    box-shadow: 1px 5px 10px rgba(0,0,1.0);
+    margin-left: 40px;
+    display: inline-block;
+    
+}
+
+.collection-condainer::-webkit-scrollbar{
+    display: none;
+}
+
+.collection-condainer{
+    margin: 0% 8%;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.collections img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 11%;
+}
+
+.collections h6{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 16%;   
+}
+
+.catagory{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    font-weight: lighter;
+}
+
+.price{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+}
+
+span{
+    font-family: "Playwrite NZ", cursive;
+}
+
+.brand-img img{
+    padding-top: 7px;
+    width: 400px;
+    height: 400px;
+}
+
+.about-brand{
+    display: flex;
+    
+}
+
+.about-us-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.about-us-text p{
+    font-family: "Montserrat", sans-serif;
+    padding: 80px 20px;
+    text-align: left;
+    text-align: justify;
+}
+
+.touch{
+    display: flex;
+}
+
+.getin-touch img{
+    width: 400px;
+    height: 400px;
+    padding: 30px 150px;
+    border-radius: 30px;
+}
+
+.form-container{
+    margin-top: 150px;
+    width: 40px;
+    margin-left: 300px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+input{
+    justify-content: center;
+    padding: 10px 100px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: none;
+    outline: none;
+}
+.subject input{
+    height: 100px;
+}
+
+.btn button{
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.contact-us{
+    font-family: "Montserrat", sans-serif;
+}
+
+.contact-us-section{
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 2% 10%;
+}
+
+.Location{
+    font-size: 20px;
+}
+
+.support h4{
+    font-size: 20px;
+}
+
+.shop h4{
+    font-size: 20px;
+}
+
+.company h4{
+    font-size: 20px;
+}
+
+.support p{
+    color: gray;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+.shop p{
+    color: gray;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+.company p{
+    margin-bottom: 5px;
+    color: gray;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+.copyright p{
+    font-family: "Montserrat", sans-serif;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+@media screen and (max-width:430px) {
+   header{
+    width: 350px;
+    height: 70px;
+    z-index: 2;
+   }
+   .image1 img{
+    margin-top: 90px;
+    height: 500px;
+   }
+   svg{
+    visibility: visible;
+    color: white;
+    width: 25px;
+    height: 25px;
+    margin-left: -20px;
+    cursor: pointer;
+   }
+   nav ul{
+    display: none;
+   }
+   .nav-icons{
+    display: none;
+   }
+   .logo{
+    font-size: 16px;
+    font-stretch: expanded;
+    width: 150px;
+   }
+
+    .login{
+        margin-left: 30px;
+        font-size: 12px;
+        padding: 7px;
+    }
+    .banner-text{
+        font-size: small; 
+        margin-right: -26px;
+    }
+    ::-webkit-scrollbar{
+        width: 6px;
+        height: 6px;
+    }
+    .collections img{
+        width: 200px;
+    }
+    .collections{
+        width: 200px;
+    }
+    .about-us-text{
+        display: block;
+    }
+    .brand-img img{
+        width: 300px;
+        height: 300px;
+        margin-left: 45px;
+    }
+    .touch{
+        display: block;
+    }
+    .getin-touch img{
+        width: 300px;
+        height: 300px;
+        padding: 0;
+        margin-left: 63px;
+        margin-top: 20px;
+    }
+    .form-container{
+       margin: 15px 10px;
+    }
+    .contact-us-section{
+        display: block;  
+    }
+    iframe{
+        margin-top: 20px;
+        width: 300px;
+        height: 300px;
+        margin-left: -5px;
+    }
+    .Location{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .support{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .shop{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .company{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .copyright{
+        font-size: small;
+        margin-top: 20px;
+    }
+
+    .nav-links {
+        margin: 0;
+        padding: 10px;
+        backdrop-filter: blur(8px);
+        box-shadow: 5px 5px 20px rgba(0,0,0.09); 
+        border-radius: 15px;
+    }
+    li a{
+        color: white;
+    }
+    
+    .nav-links li {
+        margin-top: 10px ;
+    }
+
+    nav{
+        margin-top: 233px;
+        margin-left: -250px;
+        z-index: 1;
+        width: 180px;
+        position: absolute;
+    }
+}
+
+@media (min-width:431px) and (max-width:768px){
+    header{
+        width: 700px;
+    }
+    svg{
+        display: none;
+    }
+    nav{
+        margin-left: 100px;
+    }
+    nav ul{
+        display: flex;
+        width: 5px;
+        font-size: 15px;
+    }
+    .nav-links{
+        width: 300px;
+    }
+    ul li{
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    .logo{
+        font-size: medium;
+    }
+    .login{
+        margin-left: 50px;
+        font-size: small;
+    }
+    .nav-icons{
+        display: none;
+    }
+    .touch{
+        display: block;
+    }
+    .about-us-text{
+        display: block;
+        font-size: 14px;   
+    }
+    .brand-img img{
+        margin-left: 120px;
+        width: 500px;
+    }
+    .getin-touch img{
+        margin-left: 50px;
+    }
+    .form-container{
+        margin-top: 15px;
+        margin-left: 200px;
+    }
+    iframe{
+        width: 500px;
+        height: 300px;
+        margin-top: 10px;
+        
+    }
+    .contact-us-section{
+        display: block;
+    }
+    .Location{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .support{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .shop{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .company{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .copyright{
+        font-size: small;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    header{
+        width: 1000px;
+    }
+    svg{
+        display: none;
+    }
+    .touch{
+        display: block;
+    }
+    nav ul{
+        display: flex;
+        margin-left: 50px;
+    }
+    .logo{
+        font-size: 16px;
+    }
+    .login{
+        margin-left: 0px;
+    }
+    .about-us-text{
+        font-size: 16px;
+    }
+    .brand-img img{
+        margin-top: 150px;
+    }
+    .touch{
+        display: block;
+        
+    }
+    .getin-touch img{
+        
+        margin-left: 150px;
+    }
+    .iframe{
+        width: 300px;
+        height: 300px;
+    }
+    .support{
+        margin-left: -350px;
+    }
+    .company{
+        margin-right: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .shop{
+        margin-right: 20px;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1440px){
+    header{
+        width: 1360px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .logo{
+        font-size: small;
+    }
+    .nav-links li {
+        margin-top: 10px ;
+    }
+    nav{
+        margin-top: 247px;
+        margin-right: -110px;
+        z-index: 1;
+        width: 180px;
+        position: absolute;
+    }
+    .banner-text{
+        font-size: smaller;
+    }
+    .about-us-text{
+        font-size: smaller;
+    }
+    a .login{
+        font-size: smaller;
+    }
+    .brand-img img{
+        width: 250px;
+        height: 200px;
+        margin-left: 15px;
+    }
+    .getin-touch img{
+        width: 250px;
+        height: 200px;
+        margin-left: 35px;
+    }
+    .form-container input{
+        width: 50px;
+    }
+    iframe{
+        width: 250px;
+        height: 250px;
+    }
+    .copyright{
+        font-size: 11px;
+    }
+}
+
